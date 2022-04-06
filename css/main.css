@@ -1,0 +1,73 @@
+body {
+  background-color: gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.main-thumb {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 50px black;
+          box-shadow: 5px 5px 50px black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 116px;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 31px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.22;
+  color: black;
+}
+
+.header__button {
+  min-width: 135px;
+  padding: 13px 20px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F7941E;
+  text-transform: uppercase;
+  border: 1px solid #F7941E;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.herro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F1F1F2;
+}
+
+.herro .textContainer {
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */

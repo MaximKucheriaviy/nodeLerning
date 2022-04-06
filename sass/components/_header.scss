@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 116px;
+}
+
+.navigation__list{
+    display: flex;
+    gap: 31px;
+}
+
+.navigation__link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.22;
+    color: black;
+}
+
+.header__button{
+    min-width: 135px;
+    padding: 13px 20px;
+
+    font-size: 18px;
+    line-height: 22px;
+    color: $accsentColor;
+    text-transform: uppercase;
+    
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: #fff;
+}
