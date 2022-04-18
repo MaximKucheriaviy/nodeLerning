@@ -4,8 +4,11 @@
   "description": "nodeLerning",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "node index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security"
+  }
 }
