@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     console.log("server reqest");
     console.log(req.url, req.method);
 
-    let file = fs.
+    let file = fs.readFileSync("./index.html", "utf-8");
 
     res.setHeader('Content-Type', 'text/ht');
     res.write('Hello world');
