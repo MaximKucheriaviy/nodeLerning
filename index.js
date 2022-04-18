@@ -1,10 +1,13 @@
 const http = require('http');
+const ropt = 2500;
 
 const server = http.createServer((req, res) => {
     console.log("server reqest");
     console.log(req.url, req.method);
+
     
-    res.setHeader('Content-Type', 'text/plain');
+
+    res.setHeader('Content-Type', 'text/ht');
     res.write('Hello world');
     res.end();
 })
