@@ -1,0 +1,15 @@
+{
+  "name": "xhr",
+  "version": "1.0.0",
+  "description": "nodeLerning",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
